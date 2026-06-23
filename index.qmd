@@ -11,9 +11,17 @@ format:
 
 ## Introduction & Motivation
 
-::: {.callout-note}
-### Lab Task 1: The "Why"
-Delete this blue box and replace it with 2–3 paragraphs explaining the real-world context of your topic. Why does this problem matter? Who is affected? What real-world impact does solving this problem achieve?
+
+ **Are we cooked?** 
+
+ The rise of Artificial Intelligence (AI) technologies, including
+ Machine Learning, Generative Adversarial Networks, and Generative AI are rapidly transforming the job market. While these advancements offer new opportunities, they also pose significant challenges for high school students preparing to enter the workforce. As a result, both students and parents are freaking out:
+
+ * A 2025 Survey BY JA/Citizens found [57% of high school students](https://www.jacitizens.org/2025-survey-shifting-attitudes-toward-ai) believe AI has negatively impacted their career outlook. 
+ * [Nearly one in five American workers](https://www.economist.com/finance-and-economics/2026/05/14/the-jobs-apocalypse-a-very-short-history?utm_campaign=shared_article) recently told another pollster that AI or automation is “very” or “somewhat” likely to replace them.
+ * [53 percent of parents] (https://www.educationnext.org/students-are-anxious-about-future-with-a-i-parents-are-too-technology-college/) are somewhat or very concerned that AI will narrow their children’s job prospects.
+
+Why does this problem matter? Who is affected? What real-world impact does solving this problem achieve?
 :::
 
 *Start typing your project introduction here...*
