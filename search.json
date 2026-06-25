@@ -1,10 +1,31 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "data.html",
+    "href": "data.html",
+    "title": "Data ETL",
     "section": "",
-    "text": "About this site"
+    "text": "Here is where you will talk about what data sources you selected, and why. How do they pertain to your research questions? Was this the best data available?"
+  },
+  {
+    "objectID": "data.html#data-selection",
+    "href": "data.html#data-selection",
+    "title": "Data ETL",
+    "section": "",
+    "text": "Here is where you will talk about what data sources you selected, and why. How do they pertain to your research questions? Was this the best data available?"
+  },
+  {
+    "objectID": "data.html#data-acquisition",
+    "href": "data.html#data-acquisition",
+    "title": "Data ETL",
+    "section": "Data Acquisition",
+    "text": "Data Acquisition\nHere is where you will talk about HOW you acquired your data. Detail any APIs used, any websites accessed, or any directories downloaded"
+  },
+  {
+    "objectID": "data.html#data-cleaning",
+    "href": "data.html#data-cleaning",
+    "title": "Data ETL",
+    "section": "Data Cleaning",
+    "text": "Data Cleaning\nHere is where you will discuss how you cleaned, engineered, or otherwise adjusted any of the data from the Acquisition stage."
   },
   {
     "objectID": "index.html",
@@ -25,14 +46,14 @@
     "href": "index.html#official-research-questions",
     "title": "Introduction",
     "section": "2 Official Research Questions",
-    "text": "2 Official Research Questions\nYour project must be guided by clear, measurable data science inquiries. Use the format below to define your scope.\n\nPrimary Research Question (RQ1): e.g., To what extent can historical local weather patterns predict weekend public transit delays in major urban centers?\nSecondary Research Question (RQ2): e.g., Does this predictive relationship hold true across different socio-economic neighborhoods within the city limits?"
+    "text": "2 Official Research Questions\nYour project must be guided by clear, measurable data science inquiries. Use the format below to define your scope.\n\nPrimary Research Question (RQ1): How has the adoption of AI affected the types of skills employers request in entry level job postings.\nPotential Secondary Research Question (RQ2): To what extent do these entry level skill requirements vary across different industries?"
   },
   {
     "objectID": "index.html#initial-literature-review",
     "href": "index.html#initial-literature-review",
     "title": "Introduction",
     "section": "3 Initial Literature Review",
-    "text": "3 Initial Literature Review\n\n\n\n\n\n\nTipAcademic Scaffolding\n\n\n\nFind at least two academic papers, industry reports, or documentation sources relevant to your domain. Summarize their findings below and explain how your specific project builds upon or differs from their methodology.\n\n\n\n3.1 Prior Work 1: [Title of Paper/Article Here]\n\nSource/Authors:\nCore Finding:\nHow it informs our project:\n\n\n\n3.2 Prior Work 2: [Title of Paper/Article Here]\n\nSource/Authors:\nCore Finding:\nHow it informs our project:"
+    "text": "3 Initial Literature Review\n\n\n\n\n\n\nTipAcademic Scaffolding\n\n\n\nFind at least two academic papers, industry reports, or documentation sources relevant to your domain. Summarize their findings below and explain how your specific project builds upon or differs from their methodology.\n\n\n\n3.1 Prior Work 1: [Title of Paper/Article Here]\n\nSource/Authors:\nCore Finding:\nHow it informs our project:\n\n\n\n3.2 Prior Work 2: [Automation, artificial intelligence and future skills needs: an Irish perspective ]\n\nSource/Authors:\nCore Finding:\nHow it informs our project:"
   },
   {
     "objectID": "index.html#data-source-orientation",
@@ -40,5 +61,12 @@
     "title": "Introduction",
     "section": "4 Data Source Orientation",
     "text": "4 Data Source Orientation\nBriefly document the raw data you intend to use to answer your research questions.\n\n\n\n\n\n\n\n\n\nData Asset Name\nSource Agency / URL\nFormat (.csv, API, SQL)\nRow/Column Count (Est.)\n\n\n\n\nExample Dataset\nCity Data Portal\n.csv\n~50,000 x 12"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
   }
 ]
