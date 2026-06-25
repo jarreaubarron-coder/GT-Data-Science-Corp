@@ -46,14 +46,14 @@
     "href": "index.html#official-research-questions",
     "title": "Introduction",
     "section": "2 Official Research Questions",
-    "text": "2 Official Research Questions\nYour project must be guided by clear, measurable data science inquiries. Use the format below to define your scope.\n\nPrimary Research Question (RQ1): How has the adoption of AI affected the types of skills employers request in entry level job postings.\nPotential Secondary Research Question (RQ2): To what extent do these entry level skill requirements vary across different industries?"
+    "text": "2 Official Research Questions\n\nPrimary Research Question (RQ1): How has the adoption of AI affected the types of skills employers request in entry level job postings.\nPotential Secondary Research Question (RQ2): To what extent do these entry level skill requirements vary across different industries?"
   },
   {
     "objectID": "index.html#initial-literature-review",
     "href": "index.html#initial-literature-review",
     "title": "Introduction",
     "section": "3 Initial Literature Review",
-    "text": "3 Initial Literature Review\n\n\n\n\n\n\nTipAcademic Scaffolding\n\n\n\nFind at least two academic papers, industry reports, or documentation sources relevant to your domain. Summarize their findings below and explain how your specific project builds upon or differs from their methodology.\n\n\n\n3.1 Prior Work 1: [Title of Paper/Article Here]\n\nSource/Authors:\nCore Finding:\nHow it informs our project:\n\n\n\n3.2 Prior Work 2: [Automation, artificial intelligence and future skills needs: an Irish perspective ]\n\nSource/Authors:\nCore Finding:\nHow it informs our project:"
+    "text": "3 Initial Literature Review\n\n3.1 Prior Work 1:\nCanaries in the Coal Mine: The Impact of Artificial Intelligence on the Labor Market\n\nAuthors:\nErik Brynjolfsson, Bharat Chandar, Ruyu Chen\nCore Finding: The paper documents six facts characterizing labor market shifts following the widespread adoption of generative AI:\n\nSince the widespread adoption of generative AI, early-career workers (ages 22-25) in the most AI-exposed occupations have experienced a 16 percent relative decline in employment even after controlling for firm-level shocks\n\n\noverall employment continues to grow robustly, but employment growth for young workers has been stagnant since late 2022\n\n\nEntry-level employment has declined in applications of AI that automate work, but not those that most augment it\n\n\nEmployment declines for young, AI-exposed workers remain after conditioning on firm-time effects such as interest rate changes\n\n\nThe labor market adjustments are visible in employment more than in compensation.\n\n\nThe results are not driven solely by computer occupationsor byoccupationssusceptibleto remoteworkand outsourcing.\n\nHow it informs my project:\n\n\n\n3.2 Prior Work 2: Automation, artificial intelligence and future skills needs: an Irish perspective\n\nSource/Authors:\nCore Finding:\nHow it informs our project:"
   },
   {
     "objectID": "index.html#data-source-orientation",
