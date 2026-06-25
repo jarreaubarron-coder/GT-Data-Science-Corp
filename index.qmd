@@ -19,12 +19,9 @@ format:
 
  * A 2025 Survey BY JA/Citizens found [57% of high school students](https://www.jacitizens.org/2025-survey-shifting-attitudes-toward-ai) believe AI has negatively impacted their career outlook. 
  * [Nearly one in five American workers](https://www.economist.com/finance-and-economics/2026/05/14/the-jobs-apocalypse-a-very-short-history?utm_campaign=shared_article) recently told another pollster that AI or automation is “very” or “somewhat” likely to replace them.
- * [53 percent of parents] (https://www.educationnext.org/students-are-anxious-about-future-with-a-i-parents-are-too-technology-college/) are somewhat or very concerned that AI will narrow their children’s job prospects.
+ * [53 percent of parents](https://www.educationnext.org/students-are-anxious-about-future-with-a-i-parents-are-too-technology-college/) are somewhat or very concerned that AI will narrow their children’s job prospects.
 
-Why does this problem matter? Who is affected? What real-world impact does solving this problem achieve?
-:::
-
-*Start typing your project introduction here...*
+**Short answer...no, we are not cooked.** But we are in a period of rapid change, and the future of work is uncertain. This projects aims to explore the skills and knowledge that you will need to thrive in a world where AI is increasingly prevalent. By analyzing current trends, educational resources, and industry demands, we will provide actionable insights to help you prepare for the evolving job market.
 
 ---
 
@@ -32,8 +29,10 @@ Why does this problem matter? Who is affected? What real-world impact does solvi
 
 Your project must be guided by clear, measurable data science inquiries. Use the format below to define your scope.
 
-* **Primary Research Question (RQ1):** *e.g., To what extent can historical local weather patterns predict weekend public transit delays in major urban centers?*
-* **Secondary Research Question (RQ2):** *e.g., Does this predictive relationship hold true across different socio-economic neighborhoods within the city limits?*
+* **Primary Research Question (RQ1):** 
+*How has the adoption of AI affected the types of skills employers request in entry level job postings.*
+* **Potential Secondary Research Question (RQ2):** 
+*To what extent do these entry level skill requirements vary across different industries?*
 
 ---
 
@@ -49,7 +48,7 @@ Find at least two academic papers, industry reports, or documentation sources re
 * **Core Finding:** 
 * **How it informs our project:** 
 
-### Prior Work 2: [Title of Paper/Article Here]
+### Prior Work 2: [Automation, artificial intelligence and future skills needs: an Irish perspective ]
 * **Source/Authors:** 
 * **Core Finding:** 
 * **How it informs our project:** 
