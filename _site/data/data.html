@@ -97,11 +97,11 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Introduction</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../data.qmd"> 
+    <a class="nav-link active" href="../data/data.html" aria-current="page"> 
 <span class="menu-text">Data</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../References.qmd"> 
+    <a class="nav-link" href="../Literature_Review/References.html"> 
 <span class="menu-text">References</span></a>
   </li>  
   <li class="nav-item">
@@ -127,6 +127,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#data-selection" id="toc-data-selection" class="nav-link active" data-scroll-target="#data-selection">Data Selection</a></li>
   <li><a href="#data-acquisition" id="toc-data-acquisition" class="nav-link" data-scroll-target="#data-acquisition">Data Acquisition</a></li>
   <li><a href="#data-cleaning" id="toc-data-cleaning" class="nav-link" data-scroll-target="#data-cleaning">Data Cleaning</a></li>
+  <li><a href="#eda" id="toc-eda" class="nav-link" data-scroll-target="#eda">EDA</a></li>
   </ul>
 </nav>
     </div>
@@ -164,6 +165,16 @@ ul.task-list li input[type="checkbox"] {
 <section id="data-cleaning" class="level2">
 <h2 class="anchored" data-anchor-id="data-cleaning">Data Cleaning</h2>
 <p>Here is where you will discuss how you cleaned, engineered, or otherwise adjusted any of the data from the Acquisition stage.</p>
+</section>
+<section id="eda" class="level2">
+<h2 class="anchored" data-anchor-id="eda">EDA</h2>
+<p>Here is a description of the graph below</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../01_tpi_scatter.png" class="img-fluid figure-img"></p>
+<figcaption>TPI vs.&nbsp;Overall Job Postings</figcaption>
+</figure>
+</div>
 
 
 </section>
@@ -242,7 +253,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/jarreaubarron-coder\.github\.io\/GT-Data-Science-Corp\/");
+        var filterRegex = new RegExp('/' + window.location.host + '/');
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

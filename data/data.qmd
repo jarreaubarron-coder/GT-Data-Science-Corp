@@ -18,3 +18,17 @@ Here is where you will talk about HOW you acquired your data. Detail any APIs us
 ## Data Cleaning
 
 Here is where you will discuss how you cleaned, engineered, or otherwise adjusted any of the data from the Acquisition stage. 
+
+## EDA
+
+Here is a description of the graph below
+
+![TPI vs. Overall Job Postings](../01_tpi_scatter.png)
+
+Price Elasticity of Demand (PED) is a measure used in economics to show the responsiveness, or elasticity, of the quantity demanded of a good or service to a change in its price. It is calculated as the percentage change in quantity demanded divided by the percentage change in price.
+* PED = (%ΔQd) / (%ΔP)
+* PED for Software Job Postings = (Percent Change in Software Job Postings) / (Percent Change in TPI)
+  - PED for Software Job Postings = -2.7 = ELASTIC
+  - PED for Overall Job Postings = -0.48 = INELASTIC
+
+**Software job Postings are more sensitive to changes in TPI than overall job postings.** This suggests that as the cost of AI services (as measured by TPI) increases, the demand for software-related job postings decreases more significantly compared to overall job postings. 
