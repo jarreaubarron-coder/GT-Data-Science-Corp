@@ -7,9 +7,9 @@ website:
     left:
       - href: index.qmd
         text: Introduction
-      - href: data.qmd
+      - href: data/data.qmd
         text: Data
-      - href: References.qmd
+      - href: Literature_Review/References.qmd
         text: References
       - href: about.qmd
         text: About
