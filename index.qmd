@@ -27,8 +27,6 @@ format:
 
 ## Official Research Questions
 
-Your project must be guided by clear, measurable data science inquiries. Use the format below to define your scope.
-
 * **Primary Research Question (RQ1):** 
 *How has the adoption of AI affected the types of skills employers request in entry level job postings.*
 * **Potential Secondary Research Question (RQ2):** 
@@ -38,17 +36,25 @@ Your project must be guided by clear, measurable data science inquiries. Use the
 
 ## Initial Literature Review
 
-::: {.callout-tip}
-### Academic Scaffolding
-Find at least two academic papers, industry reports, or documentation sources relevant to your domain. Summarize their findings below and explain how your specific project builds upon or differs from their methodology.
-:::
 
-### Prior Work 1: [Title of Paper/Article Here]
-* **Source/Authors:** 
+### Prior Work 1: 
+*Canaries in the Coal Mine: The Impact of Artificial Intelligence on the Labor Market*
+
+* **Authors:** 
+* Erik Brynjolfsson, Bharat Chandar, Ruyu Chen
+
 * **Core Finding:** 
-* **How it informs our project:** 
+*The paper documents six facts characterizing labor market shifts following the widespread adoption of generative AI:* 
+* 1. Since the widespread adoption of generative AI, early-career workers (ages 22-25) in the most AI-exposed occupations have experienced a 16 percent relative decline in employment even after controlling for firm-level shocks
+* 2. overall employment continues to grow robustly, but employment growth for young workers has been stagnant since late 2022
+* 3. Entry-level employment has declined in applications of AI that **automate** work, but not those that most **augment** it
+* 4. Employment declines for young, AI-exposed workers remain after conditioning on firm-time effects such as interest rate changes
+* 5. The labor market adjustments are visible in employment more than in compensation.
+* 6. The results are not driven solely by computer occupationsor byoccupationssusceptibleto remoteworkand outsourcing.
 
-### Prior Work 2: [Automation, artificial intelligence and future skills needs: an Irish perspective ]
+* **How it informs my project:** 
+
+### Prior Work 2: *Automation, artificial intelligence and future skills needs: an Irish perspective*
 * **Source/Authors:** 
 * **Core Finding:** 
 * **How it informs our project:** 
