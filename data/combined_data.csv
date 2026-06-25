@@ -1,0 +1,27 @@
+observation_date,Software_postings,Overall_postings,tpi_average_usd_per_m_tokens,member_count,notes
+2024-11-30,2020.14,3284.84,1.1125,9.0,"TPI index launches with 9 founding members across 6 providers. Basket: GPT-4o, GPT-4o Mini, Claude 3.5 Sonnet, Claude 3 Haiku, Claude 3.5 Haiku, Gemini 1.5 Pro, Gemini 1.5 Flash, Mistral Large, DeepSeek R1."
+2024-12-31,2090.6,3418.35,1.1125,9.0,No composition or pricing changes. Index stable at $1.11.
+2025-01-31,2091.65,3414.75,1.1125,9.0,No composition or pricing changes. Index stable at $1.11.
+2025-02-28,1816.56,3060.5,1.1125,9.0,No composition or pricing changes. Index stable at $1.11.
+2025-03-31,1931.83,3340.62,1.1788,9.0,Gemini 2.5 Pro joins index at $4.00 blended — Google's frontier model replaces Gemini 1.5 Pro. Claude 3.7 Sonnet replaces Claude 3.5 Sonnet at same $6.60 blended price. TPI rises 6% from $1.11 to $1.18.
+2025-04-30,1905.95,3202.82,1.1788,9.0,No composition or pricing changes. Index stable at $1.18.
+2025-05-31,1942.51,3282.48,1.1788,9.0,No composition or pricing changes. Index stable at $1.18.
+2025-06-30,1960.05,3159.07,1.1788,9.0,No composition or pricing changes. Index stable at $1.18.
+2025-07-31,2027.88,3233.46,1.1788,9.0,No composition or pricing changes. Index stable at $1.18.
+2025-08-31,2049.4700000000003,3247.73,1.1788,9.0,No composition or pricing changes. Index stable at $1.18.
+2025-09-30,1941.17,3083.92,1.1788,9.0,No composition or pricing changes. Index stable at $1.18.
+2025-10-31,2011.46,3129.56,1.1788,9.0,No composition or pricing changes. Index stable at $1.18.
+2025-11-30,1984.79,3040.25,1.3751,9.0,"Claude Haiku 4.5 joins index at $2.20 blended, replacing Claude 3 Haiku ($0.55). More capable but 4x more expensive in the Fast tier. TPI rises 16% from $1.18 to $1.38."
+2025-12-31,2071.87,3190.05,1.3751,9.0,No composition or pricing changes. Index stable at $1.38.
+2026-01-31,2107.13,3201.3,1.3751,9.0,No composition or pricing changes. Index stable at $1.38.
+2026-02-28,1963.84,2928.08,1.6741,8.0,Claude Sonnet 4.6 joins index at $6.60 blended (Feb 17). GPT-4o and GPT-4 deprecated by OpenAI (Feb 13) — removed from index. Index drops from 9 to 8 members temporarily. TPI rises 21% from $1.38 to $1.67 as cheaper legacy OpenAI models exit.
+2026-03-31,2212.58,3219.76,1.486,10.0,"Major index expansion: GPT-5.4 ($6.25), GPT-5.4 Mini ($1.05), GPT-5.4 Nano ($0.515) join Mar 5-17. MiniMax M2.7 ($0.57) and Qwen 3.6 Plus ($0.81) join Mar 18-30. Index grows from 8 to 10 members. Cheaper models pull TPI down 11% from $1.67 to $1.49."
+2026-04-13,2170.65,3080.41,1.4863,16.0,No composition or pricing changes. Index stable at $1.49.
+2026-04-30,2170.65,3080.41,1.4863,15.0,"Further index expansion: Kimi K2.6 ($1.575) joins Apr 20, DeepSeek V4 Flash ($0.182) Apr 24, GPT-5.5 ($12.50) Apr 24, Claude Opus 4.7 ($10.50) Apr 28, Grok 4.3 ($1.625) Apr 30. Index grows from 10 to 15 members. Mix of cheap Chinese models and expensive frontier models. TPI stable at $1.49."
+2026-05-13,2269.0,3160.28,1.71,16.0,Two significant changes drive TPI up 15% from $1.49 to $1.71: GPT-5.4 Mini price increase +79% ($1.05 -> $1.875 blended); Gemini 2.5 Flash joins at $0.96 replacing Gemini 2.0 Flash ($0.19). Index reaches 16 members across 9 providers.
+2026-05-15,2269.0,3160.28,1.9045,16.0,Index composition changes drive TPI up 11.2% from $1.71 to $1.90: Gemini 3 Flash Preview joins at $1.25 blended; GLM 5.1 joins at $1.61 blended; DeepSeek R1 retired. 16 members across 10 providers.
+2026-05-22,2269.0,3160.28,2.084,16.0,Weekly sync. TPI crosses $2 threshold for the first time (+13.7%). Gemini 3.5 Flash replaces Gemini 3 Flash Preview at 3x the price. YoY +76.6% from $1.18 (May 2025). 16 members across 10 providers.
+2026-05-29,2269.0,3160.28,2.0909,19.0,"Weekly sync. TPI flat ($2.08 -> $2.09) but 5 new members added: Claude Opus 4.8, Gemini 3.1 Pro Preview, Qwen 3.7 Max, DeepSeek V4-Pro, Mistral Medium 3.5. YoY +77.4% from May 2025. 19 members across 10 providers."
+2026-06-05,865.36,1203.26,2.1685,19.0,"MiniMax M2.7 replaced by M3, lifting TPI +3.7% from $2.09 to $2.17. M3 pricing $0.60/$2.40 (blended $1.14), double M2.7's. 19 members across 10 providers."
+2026-06-12,865.36,1203.26,2.1685,19.0,"SUSPENSION ALERT: Claude Fable 5 joined as a new ceiling on 12 June, then a US government directive suspended access hours later. Held out of index pending restoration. TPI unchanged at $2.17. 19 members across 10 providers."
+2026-06-19,865.36,1203.26,2.1685,19.0,Flat at $2.17; GLM 5.1 swapped out for GLM 5.2 (priced identically at $1.40/$4.40). Claude Fable 5 remains suspended. 19 members across 10 providers.

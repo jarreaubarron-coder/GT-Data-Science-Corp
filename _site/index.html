@@ -168,7 +168,6 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="official-research-questions" class="level2" data-number="2">
 <h2 data-number="2" class="anchored" data-anchor-id="official-research-questions"><span class="header-section-number">2</span> Official Research Questions</h2>
-<p>Your project must be guided by clear, measurable data science inquiries. Use the format below to define your scope.</p>
 <ul>
 <li><strong>Primary Research Question (RQ1):</strong> <em>How has the adoption of AI affected the types of skills employers request in entry level job postings.</em></li>
 <li><strong>Potential Secondary Research Question (RQ2):</strong> <em>To what extent do these entry level skill requirements vary across different industries?</em></li>
@@ -179,7 +178,31 @@ ul.task-list li input[type="checkbox"] {
 <h2 data-number="3" class="anchored" data-anchor-id="initial-literature-review"><span class="header-section-number">3</span> Initial Literature Review</h2>
 <section id="prior-work-1" class="level3" data-number="3.1">
 <h3 data-number="3.1" class="anchored" data-anchor-id="prior-work-1"><span class="header-section-number">3.1</span> Prior Work 1:</h3>
-<p><em>Canaries in the Coal Mine: The Impact of Artificial Intelligence on the Labor Market</em> * <strong>Authors:</strong> <em>Erik Brynjolfsson, Bharat Chandar, Ruyu Chen</em> * <strong>Core Finding:</strong> * <em>The paper documents six facts characterizing labor market shifts following the widespread adoption of generative AI:</em> 1. <em>Since the widespread adoption of generative AI, early-career workers (ages 22-25) in the most AI-exposed occupations have experienced a 16 percent relative decline in employment even after controlling for firm-level shocks</em> 2. <em>overall employment continues to grow robustly, but employment growth for young workers has been stagnant since late 2022</em> 3. <em>entry-level employment has declined in applications of AI that <strong>automate</strong> work, but not those that most <strong>augment</strong> it</em> 4. <em>Employment declines for young, AI-exposed workers remain after conditioning on firm-time effects such as interest rate changes</em> 5. <em>The labor market adjustments are visible in employment more than in compensation.</em> 6. <em>The results are not driven solely by computer occupationsor byoccupationssusceptibleto remoteworkand outsourcing.</em> * <strong>How it informs my project:</strong></p>
+<p><em>Canaries in the Coal Mine: The Impact of Artificial Intelligence on the Labor Market</em></p>
+<ul>
+<li><p><strong>Authors:</strong></p></li>
+<li><p>Erik Brynjolfsson, Bharat Chandar, Ruyu Chen</p></li>
+<li><p><strong>Core Finding:</strong> <em>The paper documents six facts characterizing labor market shifts following the widespread adoption of generative AI:</em></p></li>
+<li><ol type="1">
+<li>Since the widespread adoption of generative AI, early-career workers (ages 22-25) in the most AI-exposed occupations have experienced a 16 percent relative decline in employment even after controlling for firm-level shocks</li>
+</ol></li>
+<li><ol start="2" type="1">
+<li>overall employment continues to grow robustly, but employment growth for young workers has been stagnant since late 2022</li>
+</ol></li>
+<li><ol start="3" type="1">
+<li>Entry-level employment has declined in applications of AI that <strong>automate</strong> work, but not those that most <strong>augment</strong> it</li>
+</ol></li>
+<li><ol start="4" type="1">
+<li>Employment declines for young, AI-exposed workers remain after conditioning on firm-time effects such as interest rate changes</li>
+</ol></li>
+<li><ol start="5" type="1">
+<li>The labor market adjustments are visible in employment more than in compensation.</li>
+</ol></li>
+<li><ol start="6" type="1">
+<li>The results are not driven solely by computer occupationsor byoccupationssusceptibleto remoteworkand outsourcing.</li>
+</ol></li>
+<li><p><strong>How it informs my project:</strong></p></li>
+</ul>
 </section>
 <section id="prior-work-2-automation-artificial-intelligence-and-future-skills-needs-an-irish-perspective" class="level3" data-number="3.2">
 <h3 data-number="3.2" class="anchored" data-anchor-id="prior-work-2-automation-artificial-intelligence-and-future-skills-needs-an-irish-perspective"><span class="header-section-number">3.2</span> Prior Work 2: <em>Automation, artificial intelligence and future skills needs: an Irish perspective</em></h3>
@@ -302,7 +325,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/jarreaubarron-coder\.github\.io\/GT-Data-Science-Corp\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
