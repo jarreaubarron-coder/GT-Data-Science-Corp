@@ -7,18 +7,6 @@ format:
     toc: true
 ---
 
-## Data Selection
-
-Here is where you will talk about what data sources you selected, and why. How do they pertain to your research questions? Was this the best data available?
-
-## Data Acquisition
-
-Here is where you will talk about HOW you acquired your data. Detail any APIs used, any websites accessed, or any directories downloaded
-
-## Data Cleaning
-
-Here is where you will discuss how you cleaned, engineered, or otherwise adjusted any of the data from the Acquisition stage.
-
 ## EDA
 
 Here is a description of the graph below
@@ -42,3 +30,15 @@ This means that as the price of AI services (as measured by TPI) increases, the 
 **Both are relatively inelastic, implying that they are still relatively remote compliments.**
 
 ![](images/paste-2.png)
+
+## Data Selection
+
+Here is where you will talk about what data sources you selected, and why. How do they pertain to your research questions? Was this the best data available?
+
+## Data Acquisition
+
+Here is where you will talk about HOW you acquired your data. Detail any APIs used, any websites accessed, or any directories downloaded
+
+## Data Cleaning
+
+Here is where you will discuss how you cleaned, engineered, or otherwise adjusted any of the data from the Acquisition stage.
