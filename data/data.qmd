@@ -23,15 +23,22 @@ Here is where you will discuss how you cleaned, engineered, or otherwise adjuste
 
 Here is a description of the graph below
 
+![](images/paste-1.png)
+
 ![TPI vs. Overall Job Postings](../01_tpi_scatter.png)
 
-Price Elasticity of Demand (PED) is a measure used in economics to show the responsiveness, or elasticity, of the quantity demanded of a good or service to a change in its price. It is calculated as the percentage change in quantity demanded divided by the percentage change in price.
+Cross Price Elasticity of Demand (XED) is a measure used in economics to show the responsiveness, or elasticity, of the quantity demanded of a good or service to a change in the price of another good. It is calculated as the percentage change in quantity demanded for good x divided by the percentage change in price of good y
 
-- PED = (%ΔQd) / (%ΔP)
-- PED for Software Job Postings = (Percent Change in Software Job Postings) / (Percent Change in TPI)
-  - *PED for Software Job Postings = -2.7 = ELASTIC*
-  - *PED for Overall Job Postings = -0.48 = INELASTIC*
+- XED = (%ΔQdx) / (%ΔPy)
 
-**Software job Postings are more sensitive to changes in TPI than overall job postings.** This suggests that as the cost of AI services (as measured by TPI) increases, the demand for software-related job postings decreases more significantly compared to overall job postings.
+![](images/paste-3.png)
 
-![![](images/paste-2.png)](images/paste-1.png)
+Both Software and All Postings have a negative XED, which implies that they are complimentary, rather than substitute goods as is expected.
+
+![](images/paste-4.png)
+
+This means that as the price of AI services (as measured by TPI) increases, the demand for both software and overall job postings decreases.
+
+**Both are relatively inelastic, implying that they are still relatively remote compliments.**
+
+![](images/paste-2.png)
