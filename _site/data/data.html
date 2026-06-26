@@ -185,6 +185,12 @@ ul.task-list li input[type="checkbox"] {
 </ul></li>
 </ul>
 <p><strong>Software job Postings are more sensitive to changes in TPI than overall job postings.</strong> This suggests that as the cost of AI services (as measured by TPI) increases, the demand for software-related job postings decreases more significantly compared to overall job postings.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/paste-1.png" class="img-fluid figure-img"></p>
+<figcaption><img src="images/paste-2.png" class="img-fluid figure-img"></figcaption>
+</figure>
+</div>
 
 
 </section>
@@ -263,7 +269,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/jarreaubarron-coder\.github\.io\/GT-Data-Science-Corp\/");
+        var filterRegex = new RegExp('/' + window.location.host + '/');
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
