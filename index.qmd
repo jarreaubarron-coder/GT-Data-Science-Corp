@@ -1,5 +1,5 @@
 ---
-title: "Introduction"
+title: "How has the rise of AI effected the skills required to succeed?"
 subtitle: "Project Framing and Literature Review"
 
 format:
@@ -9,7 +9,7 @@ format:
     number-sections: true
 ---
 
-## Introduction & Motivation
+## ![](images/paste-2.png)
 
 **Are we cooked?**
 
@@ -75,7 +75,7 @@ The accelerated pace of technological change is leading to evolving skill demand
 Briefly document the raw data you intend to use to answer your research questions.
 
 | Data Asset Name | Source Agency / URL | Format (.csv, API, SQL) | Row/Column Count (Est.) |
-|------------|-------------------------------------|------------|------------|
+|--------------|-------------------------------|--------------|--------------|
 | Overall Job Postings | FRED (<https://fred.stlouisfed.org/series/IHLIDXUS?utm_source=chatgpt.com>) | *.csv* | *\~1828 x 12* |
 | Software Job postings | FRED (<https://fred.stlouisfed.org/series/IHLIDXUSTPSOFTDEVE?utm_source=chatgpt.com>) | .csv | *\~1828 x 12* |
 | tpi_average_nov2024_jun2026_1 | Token Price Index (<https://tokenpriceindex.com/>) | .csv | \~ 27 x 5 |
