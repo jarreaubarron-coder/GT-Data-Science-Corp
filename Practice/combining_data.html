@@ -166,29 +166,23 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 
-<div id="90568b39" class="cell" data-execution_count="1">
+<div id="90568b39" class="cell" data-execution_count="34">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
-<div id="f49dcdd6" class="cell" data-execution_count="16">
+<div id="f49dcdd6" class="cell" data-execution_count="35">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>tpi <span class="op">=</span> pd.read_csv(<span class="st">'../data/Token Price Index/tpi_average_nov2024_jun2026_1.csv'</span>)</span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>overall <span class="op">=</span> pd.read_csv(<span class="st">'../data/FRED/Overall Job Postings.csv'</span>)</span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>software <span class="op">=</span> pd.read_csv(<span class="st">'../data/FRED/Software Job postings.csv'</span>)</span>
 <span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>tpi.rename(columns<span class="op">=</span>{<span class="st">'week_ending'</span>: <span class="st">'observation_date'</span>}, inplace<span class="op">=</span><span class="va">True</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
-<div id="525c0f38" class="cell">
+<div id="525c0f38" class="cell" data-execution_count="36">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(overall.head())</span>
 <span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(software.head())</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>  observation_date  USDATAWWWNGSP
-0       1997-01-01          32000
-1       1998-01-01          37488
-2       1999-01-01          31737
-3       2000-01-01          27489
-4       2001-01-01          44274
-  observation_date  IHLIDXUS
+<pre><code>  observation_date  IHLIDXUS
 0       2021-06-12    132.55
 1       2021-06-13    132.67
 2       2021-06-14    133.00
@@ -202,7 +196,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 4       2021-06-16              138.26</code></pre>
 </div>
 </div>
-<div id="db80f8c2" class="cell" data-execution_count="17">
+<div id="db80f8c2" class="cell" data-execution_count="37">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>target <span class="op">=</span> <span class="st">'observation_date'</span></span>
 <span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>df_merged <span class="op">=</span> pd.merge(software, overall, on<span class="op">=</span>target, how<span class="op">=</span><span class="st">'outer'</span>)</span>
@@ -225,11 +219,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 4                           NaN           NaN   NaN  </code></pre>
 </div>
 </div>
-<div id="ab06ae88" class="cell" data-execution_count="18">
+<div id="ab06ae88" class="cell" data-execution_count="38">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb7"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>df_merged.rename(columns<span class="op">=</span>{<span class="st">'IHLIDXUS'</span>: <span class="st">'Overall_postings'</span>, <span class="st">'IHLIDXUSTPSOFTDEVE'</span>: <span class="st">'Software_postings'</span>}, inplace<span class="op">=</span><span class="va">True</span>)</span>
 <span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>df_merged.head()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-display" data-execution_count="18">
+<div class="cell-output cell-output-display" data-execution_count="38">
 <div>
 
 
@@ -297,10 +291,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 </div>
-<div id="baa7cf93" class="cell" data-execution_count="19">
+<div id="baa7cf93" class="cell" data-execution_count="39">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb8"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>df_merged.to_csv(<span class="st">'../data/combined_data.csv'</span>, index<span class="op">=</span><span class="va">False</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
-<div id="cbfd41e2" class="cell" data-execution_count="22">
+<div id="cbfd41e2" class="cell" data-execution_count="40">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb9"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> pd.read_csv(<span class="st">"../data/combined_data.csv"</span>, parse_dates<span class="op">=</span>[<span class="st">"observation_date"</span>])</span>
 <span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Compute monthly sums across all daily rows</span></span>
@@ -325,18 +319,18 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb9-22"><a href="#cb9-22" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb9-23"><a href="#cb9-23" aria-hidden="true" tabindex="-1"></a>out.to_csv(<span class="st">"../data/combined_data.csv"</span>, index<span class="op">=</span><span class="va">False</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
-<div id="328aadba" class="cell" data-execution_count="28">
+<div id="328aadba" class="cell" data-execution_count="41">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb10"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>percent_change_overall <span class="op">=</span> (out[<span class="st">'Overall_postings'</span>].iloc[<span class="op">-</span><span class="dv">1</span>] <span class="op">-</span> out[<span class="st">'Overall_postings'</span>].iloc[<span class="dv">0</span>]) <span class="op">/</span> out[<span class="st">'Overall_postings'</span>].iloc[<span class="op">-</span><span class="dv">1</span>]</span>
 <span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>percent_change_tpi <span class="op">=</span> (out[<span class="st">'tpi_average_usd_per_m_tokens'</span>].iloc[<span class="op">-</span><span class="dv">1</span>] <span class="op">-</span> out[<span class="st">'tpi_average_usd_per_m_tokens'</span>].iloc[<span class="dv">0</span>]) <span class="op">/</span> out[<span class="st">'tpi_average_usd_per_m_tokens'</span>].iloc[<span class="op">-</span><span class="dv">1</span>]</span>
 <span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a>price_elasticity_demand <span class="op">=</span> percent_change_overall <span class="op">/</span> percent_change_tpi</span>
 <span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a>price_elasticity_demand</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-display" data-execution_count="28">
+<div class="cell-output cell-output-display" data-execution_count="41">
 <pre><code>np.float64(-3.552459497342825)</code></pre>
 </div>
 </div>
-<div id="bc8d9eb2" class="cell">
+<div id="bc8d9eb2" class="cell" data-execution_count="42">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb12"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(price_elasticity_demand)</span>
 <span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(percent_change_overall)</span>
 <span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(percent_change_tpi)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
@@ -346,15 +340,47 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 0.4869725616785796</code></pre>
 </div>
 </div>
-<div id="67f1467d" class="cell" data-execution_count="33">
+<div id="67f1467d" class="cell" data-execution_count="43">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb14"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>percent_change_software <span class="op">=</span> (out[<span class="st">'Software_postings'</span>].iloc[<span class="op">-</span><span class="dv">1</span>] <span class="op">-</span> out[<span class="st">'Software_postings'</span>].iloc[<span class="dv">0</span>]) <span class="op">/</span> out[<span class="st">'Software_postings'</span>].iloc[<span class="op">-</span><span class="dv">1</span>]</span>
 <span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>percent_change_tpi <span class="op">=</span> (out[<span class="st">'tpi_average_usd_per_m_tokens'</span>].iloc[<span class="op">-</span><span class="dv">1</span>] <span class="op">-</span> out[<span class="st">'tpi_average_usd_per_m_tokens'</span>].iloc[<span class="dv">0</span>]) <span class="op">/</span> out[<span class="st">'tpi_average_usd_per_m_tokens'</span>].iloc[<span class="op">-</span><span class="dv">1</span>]</span>
 <span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a>price_elasticity_demand_Software <span class="op">=</span> percent_change_software <span class="op">/</span> percent_change_tpi</span>
 <span id="cb14-5"><a href="#cb14-5" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb14-6"><a href="#cb14-6" aria-hidden="true" tabindex="-1"></a>price_elasticity_demand_Software</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-display" data-execution_count="33">
+<div class="cell-output cell-output-display" data-execution_count="43">
 <pre><code>np.float64(-2.740298955540662)</code></pre>
+</div>
+</div>
+<div id="dd1106bc" class="cell" data-execution_count="45">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb16"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a>df_plot <span class="op">=</span> out.copy()</span>
+<span id="cb16-4"><a href="#cb16-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-5"><a href="#cb16-5" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">10</span>, <span class="dv">6</span>))</span>
+<span id="cb16-6"><a href="#cb16-6" aria-hidden="true" tabindex="-1"></a>plt.scatter(</span>
+<span id="cb16-7"><a href="#cb16-7" aria-hidden="true" tabindex="-1"></a>    df_plot[<span class="st">"Software_postings"</span>],</span>
+<span id="cb16-8"><a href="#cb16-8" aria-hidden="true" tabindex="-1"></a>    df_plot[<span class="st">"tpi_average_usd_per_m_tokens"</span>],</span>
+<span id="cb16-9"><a href="#cb16-9" aria-hidden="true" tabindex="-1"></a>    color<span class="op">=</span><span class="st">"steelblue"</span>,</span>
+<span id="cb16-10"><a href="#cb16-10" aria-hidden="true" tabindex="-1"></a>    alpha<span class="op">=</span><span class="fl">0.8</span>,</span>
+<span id="cb16-11"><a href="#cb16-11" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb16-12"><a href="#cb16-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-13"><a href="#cb16-13" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">"Software Postings"</span>)</span>
+<span id="cb16-14"><a href="#cb16-14" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">"TPI Average (USD per M Tokens)"</span>)</span>
+<span id="cb16-15"><a href="#cb16-15" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">"Software Job Postings vs. TPI Average"</span>)</span>
+<span id="cb16-16"><a href="#cb16-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-17"><a href="#cb16-17" aria-hidden="true" tabindex="-1"></a>plt.tight_layout()</span>
+<span id="cb16-18"><a href="#cb16-18" aria-hidden="true" tabindex="-1"></a>plt.savefig(<span class="st">"/Users/geoffreybarron/Desktop/software_postings_vs_tpi.png"</span>, dpi<span class="op">=</span><span class="dv">150</span>)</span>
+<span id="cb16-19"><a href="#cb16-19" aria-hidden="true" tabindex="-1"></a>plt.show()</span>
+<span id="cb16-20"><a href="#cb16-20" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">"Saved to Desktop: software_postings_vs_tpi.png"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="combining_data_files/figure-html/cell-12-output-1.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Saved to Desktop: software_postings_vs_tpi.png</code></pre>
 </div>
 </div>
 
