@@ -179,11 +179,8 @@ ul.task-list li input[type="checkbox"] {
 <section id="prior-work-1" class="level3" data-number="3.1">
 <h3 data-number="3.1" class="anchored" data-anchor-id="prior-work-1"><span class="header-section-number">3.1</span> Prior Work 1:</h3>
 <p><em>Canaries in the Coal Mine: The Impact of Artificial Intelligence on the Labor Market</em></p>
-<ul>
-<li><p><strong>Authors:</strong></p></li>
-<li><p>Erik Brynjolfsson, Bharat Chandar, Ruyu Chen</p></li>
-<li><p><strong>Core Finding:</strong> <em>The paper documents six facts characterizing labor market shifts following the widespread adoption of generative AI:</em></p></li>
-</ul>
+<p><strong>Authors:</strong> Erik Brynjolfsson, Bharat Chandar, Ruyu Chen</p>
+<p><strong>Core Finding:</strong> <em>The paper documents six facts characterizing labor market shifts following the widespread adoption of generative AI:</em></p>
 <ol type="1">
 <li>Since the widespread adoption of generative AI, early-career workers (ages 22-25) in the most AI-exposed occupations have experienced a 16 percent relative decline in employment even after controlling for firm-level shocks</li>
 <li>overall employment continues to grow robustly, but employment growth for young workers has been stagnant since late 2022</li>
@@ -192,16 +189,22 @@ ul.task-list li input[type="checkbox"] {
 <li>The labor market adjustments are visible in employment more than in compensation.</li>
 <li>The results are not driven solely by computer occupationsor byoccupationssusceptibleto remoteworkand outsourcing.</li>
 </ol>
+<p><strong>How it informs my project:</strong></p>
 <ul>
-<li><strong>How it informs my project:</strong></li>
+<li><p><em>Facts 1 and 3 are particularly relevant to our project, as they suggest that the adoption of AI has had a significant impact on the employment prospects of young workers in certain occupations. This aligns with our primary research question, which seeks to understand how AI adoption has affected the types of skills employers request in entry-level job postings.</em></p></li>
+<li><p><em>This will be tested using the Price Elasticity of Demand (PED) metric, which measures the responsiveness of the quantity demanded of a good or service to a change in its price. In this case, we can use PED to measure the responsiveness of entry-level job postings to changes in AI adoption making a distinction between ALL entry jobs and software engineering related positions</em>.</p></li>
 </ul>
 </section>
-<section id="prior-work-2-automation-artificial-intelligence-and-future-skills-needs-an-irish-perspective" class="level3" data-number="3.2">
-<h3 data-number="3.2" class="anchored" data-anchor-id="prior-work-2-automation-artificial-intelligence-and-future-skills-needs-an-irish-perspective"><span class="header-section-number">3.2</span> Prior Work 2: <em>Automation, artificial intelligence and future skills needs: an Irish perspective</em></h3>
+<section id="prior-work-2" class="level3" data-number="3.2">
+<h3 data-number="3.2" class="anchored" data-anchor-id="prior-work-2"><span class="header-section-number">3.2</span> Prior Work 2:</h3>
+<p><em>Automation, artificial intelligence and future skills needs: an Irish perspective</em></p>
+<p><strong>Authors:</strong> <em>Raimunda Bukartaite and Daire Hooper</em></p>
+<p><strong>Core Finding:</strong></p>
+<p>The accelerated pace of technological change is leading to evolving skill demands across all workforce sectors. While STEM skills are often prioritized, soft skills like collaboration and critical thinking are also crucial for bridging the skill gap and effectively adopting advanced technologies.<br>
+<img src="images/paste-1.png" class="img-fluid" width="604"></p>
+<p><strong>How it informs our project:</strong></p>
 <ul>
-<li><strong>Source/Authors:</strong></li>
-<li><strong>Core Finding:</strong></li>
-<li><strong>How it informs our project:</strong></li>
+<li>Using NLP (natural Language Processing), I will look for patterns in the key skills mentioned in “entry level” job postings on Google Jobs in the US over the last 5 years.</li>
 </ul>
 <hr>
 </section>
@@ -210,12 +213,6 @@ ul.task-list li input[type="checkbox"] {
 <h2 data-number="4" class="anchored" data-anchor-id="data-source-orientation"><span class="header-section-number">4</span> Data Source Orientation</h2>
 <p>Briefly document the raw data you intend to use to answer your research questions.</p>
 <table class="caption-top table">
-<colgroup>
-<col style="width: 19%">
-<col style="width: 23%">
-<col style="width: 28%">
-<col style="width: 28%">
-</colgroup>
 <thead>
 <tr class="header">
 <th>Data Asset Name</th>
@@ -226,16 +223,22 @@ ul.task-list li input[type="checkbox"] {
 </thead>
 <tbody>
 <tr class="odd">
-<td><em>Example Dataset</em></td>
-<td><em>City Data Portal</em></td>
+<td>Overall Job Postings</td>
+<td>FRED (<a href="https://fred.stlouisfed.org/series/IHLIDXUS?utm_source=chatgpt.com" class="uri">https://fred.stlouisfed.org/series/IHLIDXUS?utm_source=chatgpt.com</a>)</td>
 <td><em>.csv</em></td>
-<td><em>~50,000 x 12</em></td>
+<td><em>~1828 x 12</em></td>
 </tr>
 <tr class="even">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td>Software Job postings</td>
+<td>FRED (<a href="https://fred.stlouisfed.org/series/IHLIDXUSTPSOFTDEVE?utm_source=chatgpt.com" class="uri">https://fred.stlouisfed.org/series/IHLIDXUSTPSOFTDEVE?utm_source=chatgpt.com</a>)</td>
+<td>.csv</td>
+<td><em>~1828 x 12</em></td>
+</tr>
+<tr class="odd">
+<td>tpi_average_nov2024_jun2026_1</td>
+<td>Token Price Index (<a href="https://tokenpriceindex.com/" class="uri">https://tokenpriceindex.com/</a>)</td>
+<td>.csv</td>
+<td>~ 27 x 5</td>
 </tr>
 </tbody>
 </table>
