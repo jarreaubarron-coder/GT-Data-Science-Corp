@@ -4,14 +4,21 @@
     "href": "data/data.html",
     "title": "Data ETL",
     "section": "",
-    "text": "Here is where you will talk about what data sources you selected, and why. How do they pertain to your research questions? Was this the best data available?"
+    "text": "Here is a description of the graph below\n\n\n\n\nTPI vs. Overall Job Postings\n\n\nCross Price Elasticity of Demand (XED) is a measure used in economics to show the responsiveness, or elasticity, of the quantity demanded of a good or service to a change in the price of another good. It is calculated as the percentage change in quantity demanded for good x divided by the percentage change in price of good y\n\nXED = (%ΔQdx) / (%ΔPy)\n\n\nBoth Software and All Postings have a negative XED, which implies that they are complimentary, rather than substitute goods as is expected.\n\nThis means that as the price of AI services (as measured by TPI) increases, the demand for both software and overall job postings decreases.\nBoth are relatively inelastic, implying that they are still relatively remote compliments."
+  },
+  {
+    "objectID": "data/data.html#eda",
+    "href": "data/data.html#eda",
+    "title": "Data ETL",
+    "section": "",
+    "text": "Here is a description of the graph below\n\n\n\n\nTPI vs. Overall Job Postings\n\n\nCross Price Elasticity of Demand (XED) is a measure used in economics to show the responsiveness, or elasticity, of the quantity demanded of a good or service to a change in the price of another good. It is calculated as the percentage change in quantity demanded for good x divided by the percentage change in price of good y\n\nXED = (%ΔQdx) / (%ΔPy)\n\n\nBoth Software and All Postings have a negative XED, which implies that they are complimentary, rather than substitute goods as is expected.\n\nThis means that as the price of AI services (as measured by TPI) increases, the demand for both software and overall job postings decreases.\nBoth are relatively inelastic, implying that they are still relatively remote compliments."
   },
   {
     "objectID": "data/data.html#data-selection",
     "href": "data/data.html#data-selection",
     "title": "Data ETL",
-    "section": "",
-    "text": "Here is where you will talk about what data sources you selected, and why. How do they pertain to your research questions? Was this the best data available?"
+    "section": "Data Selection",
+    "text": "Data Selection\nHere is where you will talk about what data sources you selected, and why. How do they pertain to your research questions? Was this the best data available?"
   },
   {
     "objectID": "data/data.html#data-acquisition",
@@ -26,13 +33,6 @@
     "title": "Data ETL",
     "section": "Data Cleaning",
     "text": "Data Cleaning\nHere is where you will discuss how you cleaned, engineered, or otherwise adjusted any of the data from the Acquisition stage."
-  },
-  {
-    "objectID": "data/data.html#eda",
-    "href": "data/data.html#eda",
-    "title": "Data ETL",
-    "section": "EDA",
-    "text": "EDA\nHere is a description of the graph below\n\n\n\n\nTPI vs. Overall Job Postings\n\n\nCross Price Elasticity of Demand (XED) is a measure used in economics to show the responsiveness, or elasticity, of the quantity demanded of a good or service to a change in the price of another good. It is calculated as the percentage change in quantity demanded for good x divided by the percentage change in price of good y\n\nXED = (%ΔQdx) / (%ΔPy)\n\n\nBoth Software and All Postings have a negative XED, which implies that they are complimentary, rather than substitute goods as is expected.\n\nThis means that as the price of AI services (as measured by TPI) increases, the demand for both software and overall job postings decreases.\nBoth are relatively inelastic, implying that they are still relatively remote compliments."
   },
   {
     "objectID": "about.html",
